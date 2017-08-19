@@ -1,8 +1,7 @@
 
 
 class DesafioVigente {
-	static belongs= Desafio
-	static hasMany=[usuario:Usuario]
+	static belongsTo= [Desafio, Usuario]
 	
     static constraints = {
     }

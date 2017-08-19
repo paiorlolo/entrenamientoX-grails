@@ -2,7 +2,7 @@
 
 class Rutina {
 	String nombre
-	static belongs=[ejercicio:Ejercicio]
+	static belongsTo=[ejercicio:Ejercicio]
 	static hasMany = Plan
     static constraints = {
     }

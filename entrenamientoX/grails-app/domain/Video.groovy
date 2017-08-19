@@ -6,7 +6,7 @@ class Video {
 	String descripcion
 	static hasMany= [ejercicio:Ejercicio]
     static constraints = {
-		link unique: true 
+		//link unique: true 
 	
     }
 }

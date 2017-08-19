@@ -2,7 +2,7 @@
 
 class Evidencia {
 	String foto
-	static belongs= Desafio
+	static belongsTo= Desafio
 	boolean estaAprobado
 	String descripcion
     static constraints = {

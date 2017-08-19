@@ -2,7 +2,7 @@
 
 class Plan {
 
-	static belongs={[rutina: Rutina];[usuario: Usuario]}
+	static belongsTo=[rutina: Rutina, usuario: Usuario]
 	
     static constraints = {
     }
