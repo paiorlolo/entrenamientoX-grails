@@ -1,5 +1,5 @@
 
-//Comentario prueba
+
 class Desafio {
 	String tag
 	double puntaje
